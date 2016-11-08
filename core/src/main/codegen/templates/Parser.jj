@@ -2968,8 +2968,8 @@ SqlCall SequenceExpression() :
 }
 
 /**
- * Parses "SET <NAME> = VALUE" or "RESET <NAME>", without a leading
- * "ALTER <SCOPE>".
+ * Parses "SET &lt;NAME&gt; = VALUE" or "RESET &lt;NAME&gt;", without a leading
+ * "ALTER &lt;SCOPE&gt;".
  */
 SqlSetOption SqlSetOption(SqlParserPos pos, String scope) :
 {
