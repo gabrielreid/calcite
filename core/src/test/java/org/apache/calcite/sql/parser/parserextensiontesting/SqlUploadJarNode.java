@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.apache.calcite.sql.parser.extension;
+package org.apache.calcite.sql.parser.parserextensiontesting;
 
 import org.apache.calcite.sql.SqlAlter;
 import org.apache.calcite.sql.SqlKind;

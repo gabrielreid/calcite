@@ -174,6 +174,9 @@ limitations under the License.
         <configuration>
           <source>1.7</source>
           <target>1.7</target>
+          <excludes>
+            <exclude>org/apache/calcite/sql/parser/parserextensiontesting/*.java</exclude>
+          </excludes>
           <generatedTestSourcesDirectory>${project.build.directory}/generated-test-sources/javacc</generatedTestSourcesDirectory>
         </configuration>
       </plugin>
